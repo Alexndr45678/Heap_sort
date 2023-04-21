@@ -40,9 +40,7 @@ def max_heapify(array, index, size):
         max_heapify(array, largest, size)
 
 
-# lst = input('Введите числа через пробел: ').split()
 array = [random.randint(0, 50) for i in range(20)]
 print("Неотсортированный список", array)
-# array = [int(i) for i in input('Введите числа через пробел: ').split()]
 heap_sort(array)
 print("Отсортированный список:", array)
